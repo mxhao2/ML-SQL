@@ -1,4 +1,3 @@
-from get_data import download_data
 from mlsql_auto import run_auto
 from mlsql_boston import run_boston
 from mlsql_census import run_census
@@ -13,9 +12,8 @@ from mlsql_wine import run_wine
 
 
 if __name__ == "__main__":
-    print('\n\n\n')    
-    run_auto()
     print('\n\n\n')
+    run_auto()
     run_boston()
     print('\n\n\n')
     run_census()
